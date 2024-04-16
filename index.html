@@ -13,16 +13,16 @@
     <body>
         <div class="container">
             <div>
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
                 <h1>
                     <span class="h1-word1">Generate a</span><br> 
                     <span class="h1-word2">random password</span>
-                    <h5>Never use an insecure password again.</h5>
-                </h1> 
-                
-
-                <div>
-                    <button type="button" class="generate-button" id="generate-password-btn" onclick="generatePassword()">Generate passwords</button>
-                </div>
+                </h1>
+                <p class="p-text">Never use an insecure password again.</p>
+                <button type="button" class="generate-button" id="generate-password-btn" onclick="generatePassword()">Generate passwords</button>
                 <hr class="custom-line"> 
                 <input type="text" id="password-field1" name="fname1">
                 <input type="text" id="password-field1"  name="lname2">

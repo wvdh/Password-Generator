@@ -12,7 +12,7 @@ body {
     border-radius: 6px;
     box-shadow: 5px 10px 8px #273549;
     display: flex;
-    margin: 60px auto;
+    margin: 80px auto;
     padding: 30px
 }
 
@@ -62,14 +62,17 @@ input:checked + .slider:before {
 }
 
 h1 {
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
 }
 
 p {
     font-size: 20px;
-    font-weight: 300;
-    margin-top: -10px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: -20px;
 }
 
 .generate-button {
@@ -79,26 +82,39 @@ p {
     padding: 10px;
     border-radius: 6px;
     border: none;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 hr {
     border: none;
     height: 1px; /* dikte van de lijn */
-    margin: 30px 0; /* afstand boven en onder de lijn */
+    margin: 40px 0; /* afstand boven en onder de lijn */
 }
 
-#password-field1 {
+.password-field1 {
     background-color: #273549;
     color: #55F991;
     text-align: center;
     font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 8px 5px;
+    border: none;
+    margin-right: 15px;
+}
+
+.password-field2 {
+    background-color: #273549;
+    color: #55F991;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
     border-radius: 6px;
     padding: 8px 5px;
     border: none;
 }
 
-  /* Text color in normal mode */
+/* Text color in normal mode */
 .container {
     background: #ECFDF5;
 }
@@ -119,10 +135,7 @@ hr {
 background-color: #D5D4D8; /* kleur van de lijn */
 }
 
-//  /* Text color in dark mode */
-//.dark-mode {
-//    background-color: #1C1C1C; /* Donkere achtergrondkleur in donkere modus */
-//}
+/* Text color in dark mode */
   
 .dark-mode .container {
     background: #1F2937;
@@ -141,23 +154,5 @@ background-color: #D5D4D8; /* kleur van de lijn */
 }    
 
 .dark-mode .custom-line {
-    color #2F3E53;
+    background-color: #2F3E53;
 }
-
-// normal mode hr #D5D4D8;
-// darkmode hr #2F3E53;
-
-
-
-
-/*
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 800
-
-.karla-<uniquifier> {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-*/

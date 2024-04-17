@@ -88,7 +88,7 @@ hr {
     margin: 30px 0; /* afstand boven en onder de lijn */
 }
 
-#password-field1 {
+.password-field {
     background-color: #273549;
     color: #55F991;
     text-align: center;

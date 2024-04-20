@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-around;
     border-radius: 15px;
-    //box-shadow: 5px 10px 8px #273549;
     display: flex;
     margin: 80px auto;
     padding: 30px;
@@ -54,7 +53,7 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    //background-color: #6B7280;
     transition: 0.4s;
     border-radius: 50%;
 }
@@ -122,6 +121,7 @@ hr {
 }
 
 /* Text color in normal mode */
+
 body {
     background: white;
 }
@@ -129,6 +129,10 @@ body {
 .container {
     background: #ECFDF5;
     border: 4px solid #273549;
+}
+
+.slider:before {
+    background-color: white;
 }
 
 .label-text-darkmode {
@@ -148,10 +152,14 @@ body {
 }
 
 .custom-line {
-background-color: #D5D4D8; /* kleur van de lijn */
+    background-color: #D5D4D8;
 }
 
 /* Text color in dark mode */
+
+.dark-mode .slider:before {
+    background-color: #4ADF86;
+}
 
 .dark-mode {
     background: #1C1C1C;

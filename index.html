@@ -23,10 +23,14 @@
                     <span class="h1-word2">random password</span>
                 </h1>
                 <p class="p-text">Never use an insecure password again.</p>
-                <button type="button" class="generate-button" id="generate-password-btn" onclick="generatePassword()">Generate passwords</button>
-                <hr class="custom-line"> 
-                <input type="text" class="password-field1" name="fname1">
-                <input type="text" class="password-field2" name="fname2">
+                <button type="button" class="generate-btn" id="generate-password-btn" onclick="generatePassword()">Generate passwords</button>
+                <hr class="custom-line">
+                <div class="results">
+                    <div id="code1-el" class="password-field"></div>
+                    <div id="code2-el"class="password-field"></div>
+                </div>
+
+
             </div>
         <div>
         <script src="index.js"></script>
